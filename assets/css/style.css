@@ -2,13 +2,19 @@ body{
     margin: 0 1em;
     background: url(https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);
 }
+header h1 {
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    padding: 1.5em
+}
 ul{
     padding: 0;
     margin: 0;
-    text-align: center;
+    background: lightgrey;
 }
 ul li{
-    background: lightgray;
+    display: inline;
+    padding-left: 8em;
 }
 a{
     text-decoration: none;
@@ -28,6 +34,7 @@ h1 {
 p{
     background: lightgray;
     font-size: 2em;
+    margin: 0
 }
 img{
     display: block;
