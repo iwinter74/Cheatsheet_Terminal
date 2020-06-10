@@ -2,7 +2,14 @@ body{
     margin: 0 1em;
     background: url(https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);
 }
-header h1 {
+header{
+    background: lightblue;
+}
+header a, #git_cheatsheet div a{
+    padding-left: 5%;
+    background: lightgrey;
+}
+header h1, #git_cheatsheet div h1 {
     font-size: 2em;
     border-bottom: 1px solid black;
     padding: 1.5em
@@ -14,20 +21,22 @@ ul{
 }
 ul li{
     display: inline;
-    padding-left: 8em;
+    padding-left: 3.5em;
 }
 a{
     text-decoration: none;
     color: black;
-    background: lightgrey;
     font-size: 1.5em;
+}
+article a{
+    background: lightblue;;
 }
 a:hover{
     color: black;
     background: white;
 }
 h1 {
-    background: lightskyblue;
+    background: lightblue;
     text-align: center;
     margin: 0
 }
@@ -43,4 +52,13 @@ img{
 }
 article{
     background: lightgrey;
+}
+#git_cheatsheet article{
+    background: lightgrey;
+}
+#git_cheatsheet div{
+    background: lightblue;
+}
+section:nth-of-type(1){
+    border-bottom: 1px solid black
 }
